@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/configuracion"
+        android:icon="@drawable/engranaje"
+        android:title="configuracion "
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mnbuscar"
+        android:icon="@drawable/buscar"
+        android:title="buscar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnmas"
+        android:icon="@drawable/add"
+        android:title="nuevo"
+        app:showAsAction="always|withText" />
+</menu>
